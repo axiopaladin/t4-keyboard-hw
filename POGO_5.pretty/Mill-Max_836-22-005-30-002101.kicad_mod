@@ -1,0 +1,222 @@
+(footprint "Mill-Max_836-22-005-30-002101"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" ""
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7655cf1a-eced-47a2-9e59-0cd5f4d36a0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14c8edb7-1f22-4e7b-abe7-cbc694e01b7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Mill-Max_08-26-2025_836-22-005-30-002101.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4b0ead4-4e5a-449e-b83f-b0e401a70d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Spring-loaded pins, 5-pin array, 2mm pitch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad8a51cb-9454-482b-aff0-5967c97b6038")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91c606ee-5172-4dc5-81ff-94f29a41b692")
+	)
+	(fp_line
+		(start -1.5 0.75)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f6a7ea-4139-4e6c-91ef-e30878505682")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3c9a414d-cf2a-4ea4-b3fb-13461d592419")
+	)
+	(fp_line
+		(start -0.75 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "960f358f-8625-494e-9e0d-92c740f74cca")
+	)
+	(fp_line
+		(start 8.75 -1.5)
+		(end 9.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f916cc8f-4731-46dc-9755-22ec52847007")
+	)
+	(fp_line
+		(start 8.75 1.5)
+		(end 9.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "618e9eb3-d207-4917-b108-00f4bfbeba73")
+	)
+	(fp_line
+		(start 9.5 -0.75)
+		(end 9.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "531d9f51-ff59-48cc-b704-774c0bb9ee14")
+	)
+	(fp_line
+		(start 9.5 0.75)
+		(end 9.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8133975b-92e0-4785-a293-ab9c4b669fb2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e0aafccb-b7f4-44e6-bebf-1ba156d6d9ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.68 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "71d46b40-f1e4-4d2b-80cc-06e6bcc32dca")
+	)
+	(pad "2" smd circle
+		(at 2 0)
+		(size 1.68 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cb6de948-fb56-4c2f-b0fd-8a04e91bcaab")
+	)
+	(pad "3" smd circle
+		(at 4 0)
+		(size 1.68 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7598c7b5-9ad4-4dbc-8be6-1f31450c8795")
+	)
+	(pad "4" smd circle
+		(at 6 0)
+		(size 1.68 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24659387-26bc-4947-a7e4-773b0f9d9e1d")
+	)
+	(pad "5" smd circle
+		(at 8 0)
+		(size 1.68 1.68)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86d8c8a9-4c2a-4c57-b94f-b0a51685dc89")
+	)
+	(zone
+		(layer "F.CrtYd")
+		(uuid "7ec5396b-949f-494e-adb6-375d1b61bed9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1 -1) (xy 9 -1) (xy 9 1) (xy -1 1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/POGO_5.pretty/836-22-005-30-002101.stp"
+		(offset
+			(xyz 3.25 0 2.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

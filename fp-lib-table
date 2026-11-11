@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "POGO_5") (type "KiCad") (uri "${KIPRJMOD}/POGO_5.pretty") (options "") (descr ""))
+)
