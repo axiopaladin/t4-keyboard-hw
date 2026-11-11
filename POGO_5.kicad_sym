@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "POGO_5:Mill-Max_836-22-005-30-002101"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
