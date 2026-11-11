@@ -9,7 +9,7 @@
 *.bck
 *.kicad_pcb-bak
 */.history
-.history/*
+.history
 
 # KiCad generated files
 *.erc

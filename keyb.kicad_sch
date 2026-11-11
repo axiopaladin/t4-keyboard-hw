@@ -796,7 +796,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 99.06) (xy 172.72 96.52)
+			(xy 170.18 99.06) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
@@ -846,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 99.06) (xy 172.72 99.06)
+			(xy 157.48 99.06) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 96.52) (xy 175.26 96.52)
+			(xy 170.18 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -993,6 +993,26 @@
 			(type default)
 		)
 		(uuid "ff81bfa7-3462-4034-a36c-562da97be911")
+	)
+	(label "D+"
+		(at 172.72 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d84349d1-e23c-4e9c-b41e-f5f1ac6950e9")
+	)
+	(label "D-"
+		(at 172.72 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbd26e81-2889-4787-aef4-c5debfe89d38")
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
@@ -1198,7 +1218,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_A"
+		(property "Value" "CNC Tech 1001-001-01000"
 			(at 189.23 95.2501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1209,7 +1229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal"
 			(at 179.07 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -1220,7 +1240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.cnctech.us/pdfs/1001-001-01000.pdf"
 			(at 179.07 95.25 0)
 			(hide yes)
 			(show_name no)
